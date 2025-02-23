@@ -72,23 +72,23 @@ do
 		-- Files
 
 		if not isfile(Library.FolderName .. '/Utilities/hue.png') then
-			writefile(Library.FolderName .. '/Utilities/hue.png', game:HttpGet("https://github.com/prexcota/testing-scripts/blob/main/hue.png"));
+			writefile(Library.FolderName .. '/Utilities/hue.png', game:HttpGet("https://github.com/skibidicc/sigma/blob/main/hue.png"));
 		end;
 
 		if not isfile(Library.FolderName .. '/Utilities/saturation.png') then
-			writefile(Library.FolderName .. '/Utilities/saturation.png', game:HttpGet("https://github.com/prexcota/testing-scripts/blob/main/saturation.png"));
+			writefile(Library.FolderName .. '/Utilities/saturation.png', game:HttpGet("https://github.com/skibidicc/sigma/blob/main/saturation.png"));
 		end;
 
 		if not isfile(Library.FolderName .. '/Utilities/value.png') then
-			writefile(Library.FolderName .. '/Utilities/value.png', game:HttpGet("https://github.com/prexcota/testing-scripts/blob/main/value.png"));
+			writefile(Library.FolderName .. '/Utilities/value.png', game:HttpGet("https://github.com/skibidicc/sigma/blob/main/value.png"));
 		end;
 
 		if not isfile(Library.FolderName .. '/Utilities/shadow.png') then
-			writefile(Library.FolderName .. '/Utilities/shadow.png', game:HttpGet("https://github.com/prexcota/testing-scripts/edit/main/shadow.png"));
+			writefile(Library.FolderName .. '/Utilities/shadow.png', game:HttpGet("https://github.com/skibidicc/sigma/blob/main/shadow.png"));
 		end;
 
 		if not isfile(Library.FolderName .. '/Utilities/fishy.png') then
-			writefile(Library.FolderName .. '/Utilities/fishy.png', game:HttpGet("https://github.com/prexcota/testing-scripts/blob/main/fishy.png"));
+			writefile(Library.FolderName .. '/Utilities/fishy.png', game:HttpGet("https://github.com/skibidicc/sigma/blob/main/fishy.png"));
 		end;
 	end;
 
